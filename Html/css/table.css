@@ -1,0 +1,23 @@
+table{
+    border-spacing: 0;
+}
+th{
+    text-align: left;
+    color: burlywood;
+    margin-right: 10px;
+    padding: 10px;
+    background-color: #e5e9dc;
+    text-shadow: aliceblue;
+}
+th:hover{
+    color:pink;
+    background-color: burlywood;
+}
+td{
+    border: solid 1px green;
+    margin-right: 10px;
+    padding: 10px;
+}
+table tbody tr:nth-child(odd) td{
+    background-color: azure;
+}

@@ -1,0 +1,12 @@
+label{
+    color: blue;
+}
+.high{
+    background-color: bisque;
+    padding-left: 50px;
+    padding-top: 10px;
+    height: 40px;
+    width: 200px;
+    margin: auto;
+    box-sizing: border-box;
+}

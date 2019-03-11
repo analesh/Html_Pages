@@ -1,9 +1,8 @@
-html{
-    background-color: #B8FF82;
 
-}
 body{
+    background: url("https://images.unsplash.com/photo-1420406676079-b8491f2d07c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
     font-family: sans-serif;
+    background-size: cover;
 }
 h1{
     text-align: center;
@@ -33,10 +32,11 @@ h1{
 
 .img-class{
     padding: 40px;
-    background-color: aliceblue;
+    background: url("https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=622&q=80");
     border-top: 3px solid black;
     border-bottom: 3px solid black;
     margin: 40px;
+    background-size: contain;
 }
 .li1 {
     width: 40%;

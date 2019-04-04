@@ -1,56 +1,108 @@
 
-body{
-    background: url("https://images.unsplash.com/photo-1420406676079-b8491f2d07c8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1502&q=80");
-    font-family: 'ZCOOL QingKe HuangYou', cursive;
-
-    background-size: cover;
-}
-h1{
-    text-align: center;
+html {
+    background-color: #869960;
 }
 
-/* Navigation Class*/
-.nav-class ul{
-    margin-left: 40px;
-    padding:  0;
- }
-.nav-class li{
+body {
+    font-family: Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.container {
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFF;
+    padding-left: 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+}
+
+header {
+    padding-top: 20px;
+    color: #617140;
+}
+
+header h1 {
+    margin: 0;
+    font-weight: normal;
+    font-size: 165%;
+}
+
+header p {
+    margin: 0;
+}
+
+/* Site Navigation */
+.site-nav {
+    margin-top: 20px;
+}
+
+.site-nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+.site-nav li {
     list-style: none;
     float: left;
     margin-right: 5px;
 }
-.nav-class a{
+
+.site-nav a {
     display: block;
-    color: blue;
+    color: #617140;
     text-decoration: none;
     padding: 10px 20px;
     border: 3px solid #e5e9dc;
-
+    border-bottom: none;
 }
-.nav-class li:hover > a{
-    background-color: #e5e9dc;}
-/* End Navigation Class*/
 
-.img-class{
-    padding: 40px;
-    background: url("https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=622&q=80");
-    border-top: 3px solid black;
-    border-bottom: 3px solid black;
-    margin: 40px;
-    background-size: contain;
+.site-nav a:hover {
+    background-color: #e5e9dc;
 }
-.li1 {
-    width: 40%;
+
+/* End Site Navigation */
+
+
+.content-area {
+    border-top: 3px solid #e5e9dc;
+    border-bottom: 3px solid #e5e9dc;
+}
+
+.main-area {
+    width: 66%;
     float: left;
-}
-.li2{
-    padding: 20px;
-    background-color: burlywood;
-    width:60%;
-    float:left;
-    margin: auto;
+    padding-right: 40px;
     box-sizing: border-box;
 }
+
+.sidebar {
+    width: 34%;
+    float: left;
+    background-color: #e5e9dc;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+}
+
+footer {
+    text-align: center;
+    font-size: 85%;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.fix {
+    clear: both;
+}
+
 .group:before,
 .group:after {
     content: "";
@@ -63,16 +115,4 @@ h1{
 
 .group {
     zoom: 1;
-}
-
-
-
-
-span{
-    font-size: 150%;
-}
-footer{
-    text-align: center;
-    font-size: 70%;
-    color: grey;
 }

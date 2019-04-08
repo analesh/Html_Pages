@@ -8,8 +8,71 @@
 
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <style>
+        nav{
+            height: 80px;
+            color: #00AFF5;
+        }
+        .navbar-text{
+            text-align: right;
+        }
+        .navbar-brand{
+            font-family: 'Baloo Chettan', cursive;
+            font-size: 40px;
+        }
+        .navbar-brand:hover{
+            font-family: 'Baloo Chettan', cursive;
+            font-size: 40px;
+            color: #00AFF5;
+        }
+        body{
+            z-index: 9;
+            font-family: 'Work Sans', sans-serif;
+        }
+        a{
+            color: #00AFF5;
+        }
+    </style>
 <body>
-<div w3-include-html="html.html"></div>
+<nav class="navbar navbar-expand-lg  bg-light sticky-top">
+    <a class="navbar-brand" href="index.jsp">Carpooler</a>
+    <ul class="navbar-nav">
+        <li class="nav-item">
+            <a class="nav-link " href="index.jsp">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="about.jsp">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link " href="contact.jsp">Contact Us</a>
+        </li>
+    </ul>
+
+    <ul class="navbar-nav flex-row ml-md-auto d-none d-md-flex">
+
+        <li class="nav-item dropdown show">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" href=#><span class="glyphicon glyphicon-plus"></span> SignUp</a>
+            <div class="dropdown-menu dropdown-menu-right">
+                <a class="dropdown-item" href="signup_teacher.html">Teacher</a>
+                <a class="dropdown-item" href="signup_student.html">Student</a>
+            </div>
+        </li>
+
+        <li class="nav-item">
+            <a class="nav-link" href="login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a>
+        </li>
+
+    </ul>
+
+</nav>
 <form>
     <div class="svgContainer">
         <div>
@@ -144,6 +207,7 @@
     <div class="inputGroup inputGroup3">
         <button id="login">Log in</button>
     </div>
+
 </form>
 <script src='https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.3/TweenMax.min.js'></script>
 
